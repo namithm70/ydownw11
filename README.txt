@@ -94,11 +94,15 @@ FILES INCLUDED:
 ---------------
 - Launch YouTube Downloader.bat (Main launcher)
 - Youtube_Downloader_Windows.py (Main application)
-- ffmpeg/ (FFmpeg binaries)
-  - ffmpeg.exe
-  - ffplay.exe
-  - ffprobe.exe
+- ffmpeg/ (FFmpeg binaries - download separately due to size)
+  - ffmpeg.exe (download from https://ffmpeg.org/download.html)
+  - ffplay.exe (download from https://ffmpeg.org/download.html)
+  - ffprobe.exe (download from https://ffmpeg.org/download.html)
 - README.txt (This file)
+- .gitignore (Git ignore file for repository)
+
+NOTE: FFmpeg binaries are not included in the GitHub repository due to file size limits.
+Download them separately from https://ffmpeg.org/download.html and place in the ffmpeg/ folder.
 
 TECHNICAL DETAILS:
 ------------------
